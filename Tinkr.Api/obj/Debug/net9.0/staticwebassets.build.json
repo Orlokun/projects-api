@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Er3YFBNaunJUJ6sLxbWWw2aDASAgbqMtH4Hpqfc3r6s=",
+  "Source": "Tinkr.Api",
+  "BasePath": "_content/Tinkr.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
