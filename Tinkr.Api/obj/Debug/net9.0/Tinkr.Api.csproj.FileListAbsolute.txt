@@ -163,3 +163,4 @@ C:\WS\TinkrApi\Tinkr.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime
 C:\WS\TinkrApi\Tinkr.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\WS\TinkrApi\Tinkr.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\WS\TinkrApi\Tinkr.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\WS\TinkrApi\Tinkr.Api\obj\Debug\net9.0\Tinkr.Api.sourcelink.json

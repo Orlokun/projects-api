@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Tinkr.Api.Authorization;
+
 public static class AuthorizationExtenstions
 {
     public static IServiceCollection AddProjectAuthorization(this IServiceCollection services)

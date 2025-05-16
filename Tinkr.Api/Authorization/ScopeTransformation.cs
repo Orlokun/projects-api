@@ -25,6 +25,6 @@ public class ScopeTransformation : IClaimsTransformation
             identity.RemoveClaim(originalScopeClaim);
         }
         identity.AddClaims(scopes.Select(scope => new Claim(scopeClaimName, scope)));
-        return Task.FromResult(new ClaimsPrincipal(principal));
+        return Task.FromResult(new ClaimsPrincipal(identity));
     }
 }
