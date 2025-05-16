@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRepository(builder.Configuration);
 
-builder.Services.AddAuthentication("Auth0")
+builder.Services.AddAuthentication()
                 .AddJwtBearer("Auth0");
 
 builder.Services.AddProjectAuthorization();

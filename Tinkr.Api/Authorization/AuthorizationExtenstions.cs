@@ -11,12 +11,10 @@ public static class AuthorizationExtenstions
         .AddAuthorization(options =>
         {
             options.AddPolicy(Policies.ReadAccess, policy =>
-                policy.RequireClaim("scope", "projects:read")
-                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme, "Auth0"));
+                policy.RequireClaim("scope", "projects:read"));
             options.AddPolicy(Policies.WriteAccess, policy =>
                 policy.RequireClaim("scope", "projects:write")
-                .RequireRole("admin")
-                .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme, "Auth0"));
+                .RequireRole("admin"));
         });
 
         return services;
